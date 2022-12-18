@@ -2,7 +2,7 @@ import React from "react";
 import styles from '../styles/Home.module.css'
 import { FaRegTrashAlt } from 'react-icons/fa'
 
-const Review = ({ review, deleteReview }: { review: string }) => {
+const Review = ({ review, deleteReview }: { review: string, deleteReview:() => void}) => {
     return (
         <li className={styles.card}>
             <div className={styles.review}>
