@@ -2,6 +2,7 @@
   "name": "finalapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bunjeea.github.io/gameReview/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
